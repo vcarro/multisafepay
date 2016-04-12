@@ -1,7 +1,7 @@
 <?php
 return array(
-	'_root_'  => 'welcome/index',  // The default route
-	'_404_'   => 'welcome/404',    // The main 404 route
+	'_root_'  => 'order/index',  // The default route
+	'_404_'   => 'order/404',    // The main 404 route
 	
-	'hello(/:name)?' => array('welcome/hello', 'name' => 'hello'),
+	'order2(/:data)?' => array('order/parser', 'name' => 'order2'),
 );
